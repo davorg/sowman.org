@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Ensure the entire page uses flexbox */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Victorian Styling */
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #f4f1ea;
+    color: #3b2f2f;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+    background: url('/background.jpg');
+    background-repeat: repeat;
+    font-size: 30px; /* Increase base font size */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Page Wrapper for Bootstrap Container */
+.wrapper {
+    padding: 50px 0;
+    flex: 1;
+}
+
+/* Victorian-Inspired Decorative Header */
+header {
+    font-size: 88px; /* Increase header size proportionally */
+    color: #4a2c2a;
+    border-bottom: 2px solid #4a2c2a;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: #f4f1ea;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    padding: 30px;
+    font-size: 30px; /* Increased font size for paragraph text */
+    font-family: 'Great Vibes', cursive;
+    color: #5a3e3e;
+    background: rgba(250, 250, 250, 0.8);
+    border: 2px solid #4a2c2a;
+    border-radius: 10px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 0; /* Ensures no additional margin above the paragraph */
+    vertical-align: top; /* Aligns text at the top */
+}
+
+/* Drop Cap Style */
+.drop-cap {
+    float: left;
+    font-size: 60px; /* Increase drop-cap size proportionally */
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #4a2c2a;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    vertical-align: top; /* Align the drop cap at the top */
+}
+
+/* Button Design */
+.btn-victorian {
+    background-color: #4a2c2a;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #4a2c2a;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 36px; /* Increase button text size */
+}
+
+.btn-victorian:hover {
+    background-color: #fff;
+    color: #4a2c2a;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 32px;
+    color: #4a2c2a;
+    padding: 15px 0;
+    border-top: 2px solid #4a2c2a;
+    background: #f4f1ea;
+    text-align: center;
+    position: relative; /* Allows footer to remain within the flexbox */
+    width: 100%;
+    flex-shrink: 0; /* Prevents footer from shrinking */
+}
+
