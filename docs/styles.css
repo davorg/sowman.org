@@ -28,7 +28,7 @@ body {
 }
 
 /* Victorian-Inspired Decorative Header */
-header {
+header h1 {
     font-size: 88px; /* Increase header size proportionally */
     color: #4a2c2a;
     border-bottom: 2px solid #4a2c2a;
